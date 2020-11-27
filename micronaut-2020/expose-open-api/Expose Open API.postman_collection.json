@@ -1,0 +1,69 @@
+{
+	"info": {
+		"_postman_id": "4cab60cc-d4fc-4f63-bc32-693145c0bab5",
+		"name": "Expose Open API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET - Employees ",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8501/employees/15",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8501",
+					"path": [
+						"employees",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Swagger definition",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8501/swagger/employees-v1.1.yml",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8501",
+					"path": [
+						"swagger",
+						"employees-v1.1.yml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET - Swagger UI",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8501/swagger-ui",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8501",
+					"path": [
+						"swagger-ui"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
